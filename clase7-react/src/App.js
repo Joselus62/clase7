@@ -1,16 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from './Button';
-
+import Button from './components/Button';
+import img from './components/imagenes';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Button/>
         <img src={logo} className="App-logo" alt="logo" />
+        <img src='./imagenes/Les Luthiers.jpg'/>
         <p>
-          Edit <code>src/App.js</code> and save to reload. Hola Mundo!!!
+        <Button/>
         </p>
         <a
           className="App-link"
