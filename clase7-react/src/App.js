@@ -1,14 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import Button from './components/Button';
-import img from './components/imagenes';
+import img from './components/img/LesLuthiers.jpg'
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <img src='./imagenes/Les Luthiers.jpg'/>
+        <img src={img} className="App-img" alt="img"/>
         <p>
         <Button/>
         </p>
@@ -18,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Homenaje a Les Luthiers
         </a>
       </header>
     </div>
