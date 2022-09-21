@@ -1,6 +1,7 @@
 import './App.css';
-import Button from './components/Button';
+import Button from './components/Button/Button';
 import img from './components/img/LesLuthiers.jpg'
+import Video from './components/video/video';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <img src={img} className="App-img" alt="img"/>
         <p>
         <Button/>
+        <video />
         </p>
         <a
           className="App-link"
