@@ -1,7 +1,8 @@
 import './App.css';
 import Button from './components/Button/Button';
-import img from './components/img/LesLuthiers.jpg'
-import Video from './components/video/video';
+import img from './components/img/LesLuthiers.jpg';
+import Video from './components/Video/Video';
+import Audio from './components/Audio/Audio';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
         <img src={img} className="App-img" alt="img"/>
         <p>
         <Button/>
-        <video />
+        <Video />
+        <Audio/>
         </p>
         <a
           className="App-link"

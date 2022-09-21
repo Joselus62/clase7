@@ -6,7 +6,7 @@ export default class Video extends Component {
               
         return (
             <video className="Video">
-                <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4"/>
+                <source src="https://www.w3schools.com/tags/movie.mp4"type="video/mp4"/>
             </video>
         );        
     }
